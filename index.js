@@ -24,7 +24,6 @@ function submitData(name, email) {
     document.body.innerHTML = object[ "id" ]
   })
   .catch(function(error) {
-    let parent = document.getElementById('error-heading')
-    parent.append(error)
+    document.body.innerHTML = error.message
   })
 }
