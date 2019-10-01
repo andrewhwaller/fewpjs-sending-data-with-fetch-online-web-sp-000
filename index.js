@@ -24,7 +24,7 @@ function submitData(name, email) {
     console.log(object);
   })
   .catch(function(error) {
-    let errorHeading = document.findElementById('error-heading')
+    let parent = document.findElementById('error-heading')
     parent.append(error)
   })
 }
