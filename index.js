@@ -15,5 +15,5 @@ let configObj = {
 
 
 function submitData(name, email) {
-  
+
 }
