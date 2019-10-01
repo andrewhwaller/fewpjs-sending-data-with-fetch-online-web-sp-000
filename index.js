@@ -23,4 +23,7 @@ function submitData(name, email) {
   .then(function(object) {
     console.log(object);
   })
+  .catch(function(error) {
+    error.append
+  })
 }
