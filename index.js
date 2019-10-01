@@ -1,7 +1,7 @@
 // Add your code here
 
 let formData = {
-  name: "some name",
+  name: "Steve",
   email: "some email"
 };
 
