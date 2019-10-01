@@ -21,7 +21,7 @@ function submitData(name, email) {
     return response.json();
   })
   .then(function(object) {
-    console.log(object);
+    document.body.innerHTML = object[ "id" ]
   })
   .catch(function(error) {
     let parent = document.getElementById('error-heading')
