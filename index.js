@@ -25,6 +25,6 @@ function submitData(name, email) {
   })
   .catch(function(error) {
     let errorHeading = document.querySelector('h1')
-  errorHeading.appendChild(error)
+    errorHeading.appendChild(error)
   })
 }
